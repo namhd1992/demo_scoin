@@ -1,0 +1,372 @@
+@charset "utf-8";
+/* CSS Document */
+.text-white {color:#FFFFFF !important;}
+.text-decoration-none {text-decoration: none;}
+.text-decoration-none:hover {text-decoration: none;}
+.forget-pass a {font-size: 12px;}
+.txt-register {font-size: 14px; font-weight: bold; color:#616a78; line-height: 50px;}
+.txt-register a {color: #33cabb}
+.or {width: 100%; height: 10px; margin: 8px auto 15px; text-align: center; border-bottom: 1px dotted #a9a9a9; font-size:14px; color:#616a78}
+.or span {display: inline-block; background-color:#FFFFFF; padding: 0 20px;}
+.title-gh {font-size: 13px; padding: 10px 0 5px 0; height: 50px;}
+.footer {border-top: solid 1px #CCCCCC; padding-top: 10px; font-size: 13px; padding-bottom: 50px}
+.footer span{color: #33cabb}
+.home{position: absolute;width: 100%; left: 0; text-align: center; margin:0 auto;}
+
+.panel {border: none;}
+.panel-default {background-color:#33cabb}
+.media-heading {line-height: 40px; color:#FFFFFF; padding-top: 10px; border-bottom: solid 1px #CCCCCC}
+.coin-num {text-align: right}
+.coin-num span {color:#ffa834; font-weight: bold;}
+.box-acc {list-style: none; }
+.box-acc .panel {margin-bottom: 5px;}
+.glyphicon-chevron-right,.glyphicon-chevron-down, .glyphicon-chevron-up {color: #ebebeb;}
+.list-group a:hover {text-decoration: none;}
+.panel-default .panel-heading, .panel-footer, .panel-info .panel-heading {background-color: #FFFFFF; border-bottom-right-radius:3px; border-bottom-left-radius:3px}
+h2.title-game {font-size: 16px; font-weight: 400; padding: 0 0 5px 0; margin-bottom: 0; color:#616a78;}
+.panel-info > .panel-heading, .panel-info > .panel-body {border: none;}
+.accordion-inner button {margin-bottom: 3px;}
+.accordion-heading button {margin-top: 10px;}
+.title-listgame {padding-top: 12px;}
+h3.text-info {color: #37404d}
+.dropdown .btn {background-color: #FFFFFF; margin: 5px 0; width: 100%; text-align: left;}
+.dropdown .server-name {font-size: 13px; padding: 7px; margin: 1% 2%; width: 46%; text-align:center; border: solid 2px #33cabb;}
+.panel-info .panel-body {padding: 0 5px 10px 5px;}
+.panel-info .panel-body .row {margin-top: 5px;}
+.panel-info .dropdown-menu {width: 100%;}
+.panel-info .dropdown {border-bottom: dashed 1px #e7e7e7;}
+.form-nap-game1 {min-height: 400px}
+.btn .col-right {display: inline-block; position: absolute; top: 11px; right: 5px; padding: 5px; background-color: #33cabb; border-radius: 3px; font-size: 13px; color:#FFFFFF;}
+.list-overview, .list-overview .list-group-item:last-child {margin-bottom: 5px;}
+/*.list-overview .list-group-item {padding: 8px 15px;}*/
+.form-payment .panel-heading h4 {color: #33cabb; font-weight: bold;}
+.dropdown .select-pack {text-align: center; border: solid 2px #33cabb;}
+.jumbotron .panel-info .media-body .media-heading, .jumbotron .panel-info .media-body .coin-num {color: #616a78;}
+.jumbotron .panel-info .media-body .coin-num button {font-size: 12px; padding: 2px 5px}
+.table.myinfo {font-size: 13px;}
+.table.myinfo tr td {line-height: 30px; vertical-align:middle;}
+.table.myinfo tr:last-child {border-bottom: solid 1px #ddd;}
+.table.myinfo a, .myinfo a {color: #33cabb; font-size: 12px; float: right;}
+.title-tudo {padding-top: 0; margin-bottom: 4px; font-size:14px;}
+.jumbotron p.date-tudo {font-size:12px; line-height: 20px;}
+.btn-group-vertical .btn:first-child:not(:last-child) {border-radius: 4px; margin-bottom: 7px; padding: 3px 8px; font-size:12px}
+.btn-group-vertical .btn:last-child:not(:first-child) {border-radius: 4px; padding: 3px 8px; font-size:12px}
+.btn-group-vertical .btn {border-radius: 4px; padding: 3px 8px; font-size:12px}
+.nap-scoin h3 {margin-bottom: 0px; margin-top: 10px}
+.underline {border-bottom: solid 2px #ddd; padding: 5px 0;}
+.form-group.row {margin-left: 0; margin-right: 0;}
+.modal-body p img {text-align: left; margin-right: 5px; width: 30px; float: left;}
+p.text-danger {font-size: 13px; padding: 5px 0; margin-bottom: 0;}
+.jumbotron .checkbox label a {text-decoration: underline; color:#37404d}
+p.txt-help {font-size: 12px; padding: 10px 0; border-top: solid 1px #CCCCCC; font-style:italic;}
+.panel-heading.border-bottom {border-bottom: solid 1px #eee; margin-bottom: 8px; padding-top: 0px; padding-bottom: 3px;}
+.btn-tudo { padding: 3px 15px; margin-left: 10px; background-color:#33cabb; color:#FFFFFF}
+.btn-tudo:hover, .btn-tudo:focus {color:#FFFFFF;}
+.buy-items {padding: 5px;}
+.bg-buy-items {background-color:#2c251b !important;}
+.item-name {height: 25px; overflow: auto; z-index: 9999;}
+.label-km {position: absolute; top: 11px; margin-left: 30px; width:45px; z-index: 9999;}
+.label-tc {position: absolute; top: 1px; margin-left: 26px; width:30px; z-index: 9999;}
+.small5 {font-size: 75%; font-weight: normal; padding: 2px 3px;}
+.small6 {font-size: 55%; font-weight: normal; padding: 1px;}
+.px-2 {padding-left: 15px; padding-right: 15px;}
+.pb-2 {padding-bottom: 15px;}
+.px-1 {padding-left: 10px; padding-right: 10px;}
+.mb-0 {margin-bottom: 0;}
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 3px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 3px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 3px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 3px 3px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 3px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 3px 0;
+}
+.table-curved tbody tr td, .table-curved thead tr th {vertical-align: middle;}
+/* Sets up our marquee, and inner content */
+.marquee {
+    overflow: hidden;
+    position: relative;
+    padding-left: 50%;
+    /* Some browsers may require -webkit-animation */
+    animation: reduce 30s linear infinite;
+}
+
+        .marquee_inner {
+            white-space: nowrap;
+            display: inline-block;
+            /* Some browsers may require -webkit-animation */
+            animation: scroll 30s linear infinite;
+        }
+
+/* Creates two white-to-transparent gradients at the ends of the marquee */
+.marquee::before, .marquee::after {
+    z-index: 1;
+    top: 0; left: 0;
+    width: 50px; height: 100%;
+    content: ""; display: block;
+}
+
+.marquee::after {
+    left: auto; right: 0;
+    transform: rotate(180deg);
+}
+
+@keyframes reduce {
+    to {
+        padding-left: 0;
+    }
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX( -100% );
+    }
+}
+/* End our marquee, and inner content */
+@media (max-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+/*Begin text effect*/
+.text-eff {
+	-webkit-animation-name: opacity;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: opacity;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+}
+@-webkit-keyframes opacity {
+  0%, 100% {opacity:0.3;}
+  50% {opacity:1;}
+}
+@-o-keyframes opacity {
+  0%, 100% {opacity:0.3;}
+  50% {opacity:1;}
+}
+@-moz-keyframes opacity {
+  0%, 100% {opacity:0.3;}
+  50% {opacity:1;}
+}
+@keyframes opacity {
+  0%, 100% {opacity:0.3;}
+  50% {opacity:1;}
+}
+/*End text effect*/
+.badge-notify{
+   background:red;
+   font-size: 12px;
+   border-radius:50%;
+   width: 24px; 
+   height: 24px;
+   padding: 5px;
+   margin-top: -2px;
+  }
+.border-avatar {border: solid 3px #FFFFFF;}
+.bg-circle { 
+   width: 40px;
+   height: 40px;
+   background: #E0E0E0; 
+   -moz-border-radius: 40px; 
+   -webkit-border-radius: 40px; 
+   border-radius: 40px;
+   padding: 4px;
+   display: block;
+}
+.container .flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items:center;
+}
+/*.btn-nap-vi {border: solid 2px #ffa834; width: 49%; font-size:14px; text-transform:uppercase; color:#fff; font-weight: bold; background-color: #ffa834; padding: 18px 0}
+.btn-nap-vi:hover, .btn-nap-vi:focus {border: solid 2px #ffa834; width: 49%; font-size:14px; text-transform:uppercase; color:#fff; font-weight: bold; background-color: #ffa834;padding: 18px 0}
+.btn-nap-game {border: solid 2px #ffa834; width: 49%; font-size:14px; text-transform:uppercase; color:#fff; font-weight: bold; background-color: #ffa834; padding: 18px 0}
+.btn-nap-game:hover, .btn-nap-game:focus  {border: solid 2px #ffa834; width: 49%; font-size:14px; text-transform:uppercase; color:#fff; font-weight: bold; background-color: #ffa834; padding: 18px 0}*/
+.align-middle img {margin-top: -5px}
+.btn-tag {margin-top: -45px; font-size:13px; font-weight: normal; padding: 5px 10px; margin-right: 3px;}
+.btn-tag-news {font-size:12px; padding: 2px 5px; margin-right: 3px}
+.btn-tag-event {font-size:12px; padding: 2px 8px; margin-right: 3px; color: #ffa834; border-color: #ffa834;}
+.pt4 {padding-top: 24px;}
+.bb-game {border-bottom: solid 1px #CCCCCC;}
+.bb-game .active {font-weight: bold;}
+.btn-napnhanh {width: 100%; height: 60px; font-size:16px; text-transform:uppercase;}
+.p-3 {padding: 4px;}
+.notify-top {position: absolute; top: 0; right: 8px; background-color: red; color:#FFF; border-radius:50%; font-size:12px; width: 24px; height: 24px; padding: 5px; z-index:9999}
+.notify-shortcut {position: absolute; top: 2%; right: 20%; font-size: 4vw; color: red;}
+.text-event {color: #ffa834;}
+
+.color-red {color: red;}
+.pagi-news {margin: 20px 0;}
+.pagi-news li a {color: #666;}
+.pagi-news li a:hover {color: #999;}
+.pagi-news .active {background-color: #eee; color:#666;}
+.content-tintuc img {display:inline-block; max-width: 100%; height: auto !important;}
+.mlink {box-shadow: 0 .150rem .50rem rgba(0,0,0,.095); border-radius: 4px; position: relative; padding-right: 12px; line-height: 25px; padding-left: 5px; padding-top: 4px; padding-bottom: 4px; margin-right: 6px;}
+.mlink .glyphicon-new-window {position: absolute; top: 0; right: 0; font-size: 12px;}
+.border-4 {
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	overflow: hidden; 
+	z-index: 1;
+	}
+.h-iframe {position: absolute; left: 0; bottom: 4px; width: 100%; height: calc(100vh - 50px); padding: 0; margin: 0;}
+/*update 28/5/2020*/
+#menu-fixed-bottom {bottom: -65px;  transition: top 0.3s;}
+.fixed-bottom {position: fixed; left: 0; bottom: 0; width: 100%; display: block; z-index:1050}
+.menu-fixed {width: 758px; margin: 0 auto; padding: 8px; border-left: none; border-right: none; border-radius: 0;}
+.container {width: 768px;}
+.icon-home {background:url(../images/icon-home.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.icon-wallet {background:url(../images/icon-nap-vi.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.icon-gamepad {background:url(../images/icon-nap-game.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.icon-giftcode {background:url(../images/icon-giftcode.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.icon-menu {background:url(../images/icon-menu.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.text-menu-bottom {padding-top: 8px; margin-left: -10px}
+.col-xs-5ths {width: 20%; float: left;}
+.col-xs-5ths a:hover, .col-xs-5ths a.active{color: #ffa834;}
+.col-xs-5ths a:hover .icon-home, .col-xs-5ths a.active .icon-home { background:url(../images/icon-home-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-wallet, .col-xs-5ths a.active .icon-wallet { background:url(../images/icon-nap-vi-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-gamepad, .col-xs-5ths a.active .icon-gamepad { background:url(../images/icon-nap-game-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-giftcode, .col-xs-5ths a.active .icon-giftcode { background:url(../images/icon-giftcode-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-menu, .col-xs-5ths a.active .icon-menu { background:url(../images/icon-menu-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.nap-btn {border: solid 1px #E4E4E4; border-radius: 8px; width: 75px; height: 60px; display:inline-block; -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,.05); box-shadow: 2px 2px 2px rgba(0,0,0,.05); margin: 10px auto}
+.nap-game-btn {background:url(../images/nap-game-btn.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.nap-vi-btn {background:url(../images/icon-nap-vi-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.giftcode-btn {background:url(../images/giftcode-btn.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+
+.b-btn-nap {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background: #fff;
+ margin: 0;
+ padding: 10px;
+ display: -webkit-flex;
+ display: flex;
+ flex-wrap: wrap; /* 7 items */ /* max-width: 695px; */ /* 6 items */
+ max-width: 500px; /* 5 items */ /* max-width: 503px; */ /* 4 items */ /* max-width: 407px; */
+ margin: 0 auto;
+}
+.b-btn-nap .wrapper {
+ -webkit-flex-basis: 88px;
+ flex-basis: 88px;
+ width: 88px;
+ -webkit-flex-grow: 1;
+ flex-grow: 1;
+ padding: 8px 4px;
+}
+.b-btn-nap .wrapper.placeholder {
+ padding: 0 4px;
+}
+.btn-nap {
+ width: 80px;
+ height: 65px;
+ margin: 0 auto;
+ font-size: 12px;
+ color: #1a1a1a;
+ text-align: center;
+ border: 1px solid #e5e5ea;
+ display: -webkit-flex;
+ display: flex;
+ -webkit-flex-direction: column;
+ flex-direction: column;
+ -webkit-align-items: center;
+ align-items: center;
+ -webkit-justify-content: flex-end;
+ justify-content: flex-end;
+ padding-bottom: 4px;
+ box-shadow: 0px 2px 4px rgba(68, 68, 68, 0.1), 0px 2px 8px rgba(68, 68, 68, 0.02);
+ border-radius: 10.7295px;
+ position: relative;
+ cursor: pointer;
+}
+.close-banner {position: absolute !important; top: 8px; right: 3px !important; color:#fff !important; opacity: 1; font-weight: bold; z-index:1060}
+/*Slick slider*/
+.slider {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 1;
+    }
+    
+    .slick-active, .slick-current {
+      opacity: 1;
+    }
+
+/*End Slick slider*/
+
+
+@media screen and (max-width:768px){
+.menu-fixed {width: 100%;}
+.fixed-bottom {position: fixed; left: 0; right: 0; bottom: 0; width: 100%; display: block; z-index:1050}
+.menu-fixed-bottom {width: 100%; margin: 0 auto; padding: 8px; border-left: none; border-right: none; border-radius: 0;}
+.container {width: 100%;}
+.text-menu-bottom {padding-top:0; font-size: 10px; text-align: center;  margin-left:0}
+.col-xs-5ths a:hover, .col-xs-5ths a.active{color: #ffa834;}
+.col-xs-5ths a:hover .icon-home, .col-xs-5ths a.active .icon-home { background:url(../images/icon-home-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-wallet, .col-xs-5ths a.active .icon-wallet { background:url(../images/icon-nap-vi-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-gamepad, .col-xs-5ths a.active .icon-gamepad { background:url(../images/icon-nap-game-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-giftcode, .col-xs-5ths a.active .icon-giftcode { background:url(../images/icon-giftcode-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+.col-xs-5ths a:hover .icon-menu, .col-xs-5ths a.active .icon-menu { background:url(../images/icon-menu-hover.png) no-repeat; background-size: 30px; width: 30px; height: 30px; display: block; margin: 2px auto; position: relative; overflow: auto}
+}
+@media screen and (min-width:768px){
+.notify-shortcut {right: 16%;}
+.container {width: 768px;}
+
+}
+@media screen and (min-width:640px){
+.event-mobile {display: none}
+.coin-num {text-align: right}
+}
+@media screen and (max-width:640px){
+#myCarousel_event {display: none}
+.event-mobile {display: block}
+.coin-num {text-align: left}
+
+}
+@media screen and (max-width:360px){
+.bb-game li a {padding: 10px 11px}
+}
